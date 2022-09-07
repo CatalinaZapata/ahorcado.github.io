@@ -27,19 +27,39 @@ footer p:last-child{
 font-size: 8px;}
 
 /*Responsive creciente*/
-@media screen and (min-width: 300px){#canvas{width: 270px;}
+@media screen and (min-width: 200px){
+*{width: auto;}
+#canvas{width: 170px;}
 footer{width: 100%;}}
-@media screen and (min-width: 400px){#canvas{width: 270px;}
+@media screen and (min-width: 300px){
+*{width: auto;}
+#canvas{width: 270px;}
 footer{width: 100%;}}
-@media screen and (min-width: 500px){#canvas{width: 270px;}
+@media screen and (min-width: 400px){
+*{width: auto;}
+#canvas{width: 270px;}
 footer{width: 100%;}}
-@media screen and (min-width: 600px){#canvas{width: 370px;}
+@media screen and (min-width: 500px){
+*{width: auto;}
+#canvas{width: 270px;}
 footer{width: 100%;}}
-@media screen and (min-width: 700px){#canvas{width: 370px;}
+@media screen and (min-width: 600px){
+*{width: auto;}
+#canvas{width: 370px;}
 footer{width: 100%;}}
-@media screen and (min-width: 800px){#canvas{width: 400px;}
+@media screen and (min-width: 700px){
+*{width: auto;}
+#canvas{width: 370px;}
 footer{width: 100%;}}
-@media screen and (min-width: 900px){#canvas{width: 400px;}
+@media screen and (min-width: 800px){
+*{width: auto;}
+#canvas{width: 400px;}
 footer{width: 100%;}}
-@media screen and (min-width: 1000px){#canvas{width: 400px;}
+@media screen and (min-width: 900px){
+*{width: auto;}
+#canvas{width: 400px;}
+footer{width: 100%;}}
+@media screen and (min-width: 1000px){
+*{width: auto;}
+#canvas{width: 400px;}
 footer{width: 100%;}}
