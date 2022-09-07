@@ -27,11 +27,11 @@ footer p:last-child{
 font-size: 8px;}
 
 /*Responsive creciente*/
-@media screen and (min-width: 300px){#canvas{width: 220px;}}
-@media screen and (min-width: 400px){#canvas{width: 320px;}}
-@media screen and (min-width: 500px){#canvas{width: 420px;}}
-/*@media screen and (min-width: 600px){#canvas{width: 520px;}}
-@media screen and (min-width: 700px){#canvas{width: 620px;}}
-@media screen and (min-width: 800px){#canvas{width: 720px;}}
-@media screen and (min-width: 900px){#canvas{width: 820px;}}
-@media screen and (min-width: 1000px){#canvas{width: 920px;}}*/
+@media screen and (min-width: 300px){#canvas,{width: 280px;}}
+@media screen and (min-width: 400px){#canvas{width: 280px;}}
+@media screen and (min-width: 500px){#canvas{width: 280px;}}
+@media screen and (min-width: 600px){#canvas{width: 380px;}}
+@media screen and (min-width: 700px){#canvas{width: 380px;}}
+@media screen and (min-width: 800px){#canvas{width: 400px;}}
+@media screen and (min-width: 900px){#canvas{width: 400px;}}
+@media screen and (min-width: 1000px){#canvas{width: 400px;}}
