@@ -1,5 +1,8 @@
 *{font-family: 'Roboto', sans-serif;}
 
+header{margin: 0em 0em 0.2em 0em;}
+.a{}
+
 #canvas{
 display: flex;
 margin:0px auto;}
@@ -29,31 +32,10 @@ font-size: 8px;}
 /*Responsive creciente*/
 @media screen and (min-width: 200px){}
 @media screen and (min-width: 300px){}
-/*@media screen and (min-width: 400px){
-*{width: auto;}
-#canvas{width: 270px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 500px){
-*{width: auto;}
-#canvas{width: 270px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 600px){
-*{width: auto;}
-#canvas{width: 370px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 700px){
-*{width: auto;}
-#canvas{width: 370px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 800px){
-*{width: auto;}
-#canvas{width: 400px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 900px){
-*{width: auto;}
-#canvas{width: 400px;}
-#footer{width: 100%;}}
-@media screen and (min-width: 1000px){
-*{width: auto;}
-#canvas{width: 400px;}
-#footer{width: 100%;}}
+@media screen and (min-width: 400px){}
+@media screen and (min-width: 500px){}
+@media screen and (min-width: 600px){}
+@media screen and (min-width: 700px){}
+@media screen and (min-width: 800px){}
+@media screen and (min-width: 900px){}
+@media screen and (min-width: 1000px){}
