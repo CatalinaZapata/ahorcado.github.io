@@ -10,23 +10,40 @@ margin:0px auto;}
 /*footer responsive*/
 footer{
 background: #0A3871;
-color: white;}
-nav{
+color: white;
 display: flex;
 justify-content: center;}
-.icono-redireccionado{
-border-radius: 50%;
-width: 2em;
-height: 2em;
-margin: 0.5em 0.2em;}
-footer p{
-display: flex;
-justify-content: center;
-font-size: 10px;
-opacity: 80%;
-margin: 0em 0em 1em 0em;}
-footer p:last-child{
-font-size: 8px;}
+.sumatoria{
+display: block;}
+    .alura-latam{background: chartreuse;
+    display: inline-block;
+    margin: 0.2em 8.5em;
+    width: 6em;
+    height: 4em;}
+    .zona-media{background: chartreuse;
+    margin: 1.5em 9em;
+    display: inline-block;}
+        nav{
+        display: flex;
+        justify-content: center;}
+        .icono-redireccionado{
+        border-radius: 50%;
+        width: 2em;
+        height: 2em;
+        margin: 0.5em 0.2em;}
+        footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        opacity: 80%;
+        margin: 0em 0em 1em 0em;}
+        footer p:last-child{
+        font-size: 8px;}
+    .oracle-one{background: chartreuse;
+    margin: auto 6.5em;
+    display: inline-block;
+    width: 11em;
+    height: 6.5em;}
 
 /*Responsive creciente*/
 @media screen and (min-width: 200px){#canvas{width: 200px;}}
