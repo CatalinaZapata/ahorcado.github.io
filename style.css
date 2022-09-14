@@ -2,10 +2,14 @@
 
 header{margin: 0em 0em 0.2em 0em;}
 
+/*Botones pagina de inicio*/
+.agregar-palabra
+.iniciar-juego
+
+/*Canvas ahorcado*/
 #canvas{
 display: flex;
 margin:0px auto;}
-
 
 /*footer responsive*/
 footer{
@@ -13,45 +17,48 @@ background: #0A3871;
 color: white;
 display: flex;
 justify-content: center;}
-.sumatoria{
-display: block;}
-    .alura-latam{background: chartreuse;
-    display: inline-block;
-    margin: 0.2em 8.5em;
-    width: 6em;
-    height: 4em;}
-    .zona-media{background: chartreuse;
-    margin: 1.5em 9em;
-    display: inline-block;}
-        nav{
-        display: flex;
-        justify-content: center;}
-        .icono-redireccionado{
-        border-radius: 50%;
-        width: 2em;
-        height: 2em;
-        margin: 0.5em 0.2em;}
-        footer p{
-        display: flex;
-        justify-content: center;
-        font-size: 10px;
-        opacity: 80%;
-        margin: 0em 0em 1em 0em;}
-        footer p:last-child{
-        font-size: 8px;}
-    .oracle-one{background: chartreuse;
-    margin: auto 6.5em;
-    display: inline-block;
-    width: 11em;
-    height: 6.5em;}
+    .sumatoria{
+    display: block;}
+        .alura-latam{
+        display: inline-block;
+        margin: 0.2em 8.7em;
+        width: 6em;
+        height: 4em;}
+        .zona-media{
+        margin: 1.5em 9em;
+        display: inline-block;}
+            nav{
+            display: flex;
+            justify-content: center;}
+            .icono-redireccionado{
+            border-radius: 50%;
+            width: 2em;
+            height: 2em;
+            margin: 0.5em 0.2em;}
+            footer p{
+            display: flex;
+            justify-content: center;
+            font-size: 10px;
+            opacity: 80%;
+            margin: 0em 0em 1em 0em;}
+            footer p:last-child{
+            font-size: 8px;}
+        .oracle-one{
+        margin: auto 6.5em;
+        display: inline-block;
+        width: 11em;
+        height: 6.5em;}
 
-/*Responsive creciente*/
-@media screen and (min-width: 200px){#canvas{width: 200px;}}
-@media screen and (min-width: 300px){#canvas{width: 300px;}}
-@media screen and (min-width: 400px){#canvas{width: 400px;}}
-@media screen and (min-width: 500px){#canvas{width: 500px;}}
-@media screen and (min-width: 600px){}
-@media screen and (min-width: 700px){}
-@media screen and (min-width: 800px){}
-@media screen and (min-width: 900px){}
-@media screen and (min-width: 1000px){}
+/*Responsive decreciente*/
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 800px){
+.sumatoria{padding: 0em 12em;}}
+@media screen and (max-width: 700px){
+.sumatoria{padding: 0em 10em;}}
+@media screen and (max-width: 600px){
+.sumatoria{padding: 0em 8em;}}
+@media screen and (max-width: 500px){#canvas{width: 500px;}
+.sumatoria{padding: 0em 10em;}}
+@media screen and (max-width: 400px){#canvas{width: 400px;}}
+@media screen and (max-width: 300px){#canvas{width: 300px;}}
+@media screen and (max-width: 200px){#canvas{width: 200px;}}
