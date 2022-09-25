@@ -28,6 +28,11 @@ function dibujarLinea(x){
     
     dibujarLinea(70);
 
+function evento(e){console.log(e);}
+
+document.addEventListener("keydown",e=>{
+    evento(e);})
+
 //Solución profe para comprobar cada letra al interactuar con el teclado
 /*
 function comprobarLetra(key){
